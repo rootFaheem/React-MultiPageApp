@@ -22,9 +22,7 @@ class Blog extends Component {
           <nav>
             <ul>
               <li>
-                <NavLink
-                  to="/posts/"
-                  exact
+                <NavLink to="/posts/" exact
                   activeClassName="my-active"
                   activeStyle={{
                     color: "#fa923f",
